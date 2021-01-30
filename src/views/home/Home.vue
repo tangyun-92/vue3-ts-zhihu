@@ -1,13 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <Creation></Creation>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Creation from '@/components/Creation/index.vue'
 
 export default defineComponent({
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Creation
+  }
 })
 </script>

@@ -11,6 +11,6 @@ interface BaseConfigProps {
   projectKey: string
 }
 declare interface Window {
-  _BASE_URL: string,
+  // _BASE_URL: string,
   _BASE_CONFIG: BaseConfigProps
 }

@@ -88,7 +88,7 @@ module.exports = {
     config.plugins.delete('preload') // TODO: need test
     config.plugins.delete('prefetch') // TODO: need test
 
-    // set svg-sprite-loader
+    // 添加svg文件
     config.module
       .rule('svg')
       .exclude.add(resolve('src/icons'))
