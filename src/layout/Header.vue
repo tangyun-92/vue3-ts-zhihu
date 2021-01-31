@@ -65,6 +65,7 @@ export default defineComponent({
   box-shadow: 0 1px 3px #ccc;
   .header-container {
     width: 1160px;
+    height: 52px;
     margin: 0 auto;
     display: flex;
     align-items: center;
