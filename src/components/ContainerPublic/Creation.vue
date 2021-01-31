@@ -2,7 +2,7 @@
  * @Author: 唐云
  * @Date: 2021-01-30 21:53:17
  * @Last Modified by: 唐云
- * @Last Modified time: 2021-01-30 23:06:01
+ * @Last Modified time: 2021-01-31 15:42:36
  创建组件
  */
 <template>
@@ -47,6 +47,7 @@ export default defineComponent({})
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 1px 3px #ddd;
+  margin-top: 10px;
   .creation-list {
     height: 105px;
     padding: 20px 15px;
@@ -59,6 +60,9 @@ export default defineComponent({})
         cursor: pointer;
         width: 50px;
         text-align: center;
+        &:hover {
+          color: #086CFF;
+        }
         &:nth-child(1) .li-svg {
           background-color: #E1EDFF;
         }
@@ -83,6 +87,9 @@ export default defineComponent({})
             width: 28px;
             height: 28px;
           }
+        }
+        p {
+          margin-top: 10px;
         }
       }
     }

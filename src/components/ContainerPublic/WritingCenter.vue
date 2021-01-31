@@ -2,7 +2,7 @@
  * @Author: 唐云
  * @Date: 2021-01-31 11:18:13
  * @Last Modified by: 唐云
- * @Last Modified time: 2021-01-31 14:07:13
+ * @Last Modified time: 2021-01-31 15:40:44
  创作中心组件
  */
 <template>
@@ -56,6 +56,8 @@ export default defineComponent({})
     .title-left {
       color: #444;
       font-weight: bold;
+      display: flex;
+      align-items: center;
       .svg-icon {
         width: 18px;
         height: 18px;
@@ -83,6 +85,7 @@ export default defineComponent({})
         margin-top: 10px;
       }
       p {
+        margin-top: 10px;
         color: rgb(99, 133, 166);
       }
     }
